@@ -12,7 +12,7 @@ public class Change implements Serializable {
     private int b20;
     private int b5;
     private int b1;
-
+    //Game
     public Change() {
     }
 
