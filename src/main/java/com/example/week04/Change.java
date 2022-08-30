@@ -13,6 +13,8 @@ public class Change implements Serializable {
     private int b5;
     private int b1;
 
+    public Change() {
+    }
 
     public int getB1000() {
         return b1000;
