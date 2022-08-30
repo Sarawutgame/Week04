@@ -10,11 +10,10 @@ public class Change implements Serializable {
     private int b500;
     private int b100;
     private int b20;
+    private int b10;
     private int b5;
     private int b1;
     //Game
-    public Change() {
-    }
 
     public int getB1000() {
         return b1000;
@@ -48,6 +47,14 @@ public class Change implements Serializable {
         this.b20 = b20;
     }
 
+    public int getB10() {
+        return b10;
+    }
+
+    public void setB10(int b10) {
+        this.b10 = b10;
+    }
+
     public int getB5() {
         return b5;
     }
@@ -63,4 +70,5 @@ public class Change implements Serializable {
     public void setB1(int b1) {
         this.b1 = b1;
     }
+
 }
